@@ -1,3 +1,5 @@
+🌐 **Hemsidan finns på [GitHub Pages](https://ntig-umea.github.io/redesign-av-webbplats-marcusbillman/).**
+
 # Redesign av webbplats
 
 Grundrepo för uppgiften redesign av webbplats. Ett sammarbete med kursen Digitalt skapande för arbete med layout, design och logotyper med utgångspunkt i mobile first.
