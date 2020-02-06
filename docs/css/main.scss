@@ -234,6 +234,10 @@ nav {
     margin-bottom: 40px;
 }
 
+.flex-card-wrapper-1 {
+    margin-bottom: 0;
+}
+
 .skill-card {
     width: 100%;
     margin-bottom: 20px;
@@ -343,6 +347,10 @@ footer {
 
     .flex-card-wrapper {
         flex-direction: row;
+    }
+
+    .flex-card-wrapper-1 {
+        margin-bottom: 20px;
     }
 
     .project-card {
