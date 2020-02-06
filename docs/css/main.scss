@@ -14,10 +14,10 @@ html {
     padding: 0;
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
-    color: $color-dark-grey;
 }
 
 body {
+    color: $color-dark-grey;
     background: white;
     overflow-x: hidden;
 }
@@ -188,9 +188,47 @@ nav {
     }
 }
 
+/* === WORK === */
+
+.project-card {
+    width: 100%;
+    height: 250px;
+    margin-bottom: 20px;
+    position: relative;
+    &__text {
+        position: absolute;
+        bottom: 30px;
+        left: 30px;
+        right: 30px;
+    }
+    &__name {
+        margin-bottom: 4px;
+    }
+}
+
+.project-card-1 {
+    background: url(../img/project-1.png);
+    background-size: cover;
+    background-position: bottom;
+}
+
+.project-card-2 {
+    background: url(../img/project-2.png);
+    background-size: cover;
+    background-position: bottom;
+    color: white;
+}
+
+.button-wrapper {
+    display: flex;
+    .button {
+        margin-right: 20px;
+    }
+}
+
 /* === SKILLS === */
 
-.skill-card-wrapper {
+.flex-card-wrapper {
     display: flex;
     flex-direction: column;
     margin-bottom: 40px;
@@ -303,8 +341,14 @@ footer {
         }
     }
 
-    .skill-card-wrapper {
+    .flex-card-wrapper {
         flex-direction: row;
+    }
+
+    .project-card {
+        margin-right: 20px;
+        margin-bottom: 0;
+        width: 500px;
     }
 
     .skill-card {
