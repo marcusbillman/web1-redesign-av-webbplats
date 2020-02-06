@@ -9,7 +9,7 @@ html {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   font-family: "Poppins", sans-serif;
-  color: #222230;
+  color: #272729;
 }
 
 body {
@@ -56,7 +56,7 @@ h2 {
 }
 
 a {
-  color: #222230;
+  color: #272729;
   text-decoration: none;
   position: relative;
 }
@@ -75,7 +75,7 @@ a:not(.no-animation)::after {
 
 a:not(.no-animation):hover::after {
   width: 100%;
-  background: #222230;
+  background: #272729;
 }
 
 .date {
@@ -291,7 +291,7 @@ nav {
   width: 2px;
   height: 30px;
   margin-left: 52px;
-  border-right: 4px dotted #222230;
+  border-right: 4px dotted #272729;
   z-index: -1;
 }
 
