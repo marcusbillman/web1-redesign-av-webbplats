@@ -102,7 +102,7 @@ a:not(.no-animation):hover::after {
   font-weight: bold;
   text-align: center;
   color: #08c2e3;
-  background: white;
+  background: transparent;
   border: 2px solid #08c2e3;
   border-radius: 50px;
   margin-top: 30px;
