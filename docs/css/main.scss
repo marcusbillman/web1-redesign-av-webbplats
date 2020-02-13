@@ -34,6 +34,7 @@ body {
     color: var(--color-text);
     background: var(--color-page-background);
     overflow-x: hidden;
+    transition: all 0.5s;
 }
 
 .container {
@@ -140,6 +141,7 @@ a {
 nav {
     height: 60px;
     background: var(--color-page-background);
+    transition: all 0.5s;
 }
 
 .social-links {
