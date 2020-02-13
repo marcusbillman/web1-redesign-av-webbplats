@@ -19,6 +19,11 @@ html {
           box-shadow: none;
 }
 
+[data-dark-theme="true"] img:not(.profile-picture) {
+  -webkit-filter: invert(1);
+          filter: invert(1);
+}
+
 * {
   margin: 0;
   padding: 0;

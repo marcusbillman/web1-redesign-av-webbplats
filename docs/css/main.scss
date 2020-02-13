@@ -18,6 +18,9 @@ html {
     .card {
         box-shadow: none;
     }
+    img:not(.profile-picture) {
+        filter: invert(1);
+    }
 }
 
 * {
