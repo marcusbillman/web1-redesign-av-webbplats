@@ -7,6 +7,13 @@ html {
   --color-decoration: #dbe2e7;
 }
 
+[data-dark-theme="true"] {
+  --color-page-background: #272729;
+  --color-card-background: #3c3c40;
+  --color-text: #dbe2e7;
+  --color-decoration: #3c3c40;
+}
+
 * {
   margin: 0;
   padding: 0;
