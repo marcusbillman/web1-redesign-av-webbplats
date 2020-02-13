@@ -222,6 +222,7 @@ nav {
   padding: 14px;
   border-radius: 100px;
   z-index: 10;
+  cursor: pointer;
 }
 
 /* === HERO === */
