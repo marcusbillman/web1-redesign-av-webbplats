@@ -15,6 +15,9 @@ html {
     --color-card-background: #3c3c40;
     --color-text: #dbe2e7;
     --color-decoration: #3c3c40;
+    .card {
+        box-shadow: none;
+    }
 }
 
 * {
@@ -105,7 +108,6 @@ a {
     font-weight: bold;
     text-align: center;
     color: $color-cyan;
-    background: transparent;
     border: 2px solid $color-cyan;
     border-radius: 50px;
     margin-top: 30px;
