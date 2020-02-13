@@ -1,12 +1,11 @@
 /* === GLOBAL === */
 
-$color-cyan: #08c2e3;
-$color-light-grey: #dbe2e7;
-$color-mid-grey: #3c3c40;
-$color-dark-grey: #272729;
-
 html {
     scroll-behavior: smooth;
+    --color-page-background: white;
+    --color-card-background: white;
+    --color-text: #272729;
+    --color-decoration: #dbe2e7;
 }
 
 * {
@@ -17,8 +16,8 @@ html {
 }
 
 body {
-    color: $color-dark-grey;
-    background: white;
+    color: var(--color-text);
+    background: var(--color-page-background);
     overflow-x: hidden;
 }
 
@@ -57,11 +56,11 @@ h2 {
 }
 
 .heading-decoration {
-    color: $color-light-grey;
+    color: var(--color-decoration);
 }
 
 a {
-    color: $color-dark-grey;
+    color: var(--color-text);
     text-decoration: none;
     position: relative;
     &:not(.no-animation) {
@@ -72,13 +71,13 @@ a {
             position: absolute;
             left: 0;
             bottom: 0;
-            background: $color-light-grey;
+            background: var(--color-decoration);
             transition: all 0.3s;
         }
         &:hover {
             &::after {
                 width: 100%;
-                background: $color-dark-grey;
+                background: var(--color-text);
             }
         }
     }
@@ -119,14 +118,14 @@ a {
         0 6px 6px rgba(219, 226, 231, 0.9);
     border-radius: 8px;
     padding: 30px;
-    background: white;
+    background: var(--color-card-background);
 }
 
 /* === NAVBAR === */
 
 nav {
     height: 60px;
-    background: white;
+    background: var(--color-page-background);
 }
 
 .social-links {
@@ -210,6 +209,7 @@ nav {
     background: url(../img/project-1.png);
     background-size: cover;
     background-position: bottom;
+    color: #272729;
 }
 
 .project-card-2 {
@@ -254,7 +254,7 @@ nav {
 .progress-bar {
     height: 10px;
     width: 100%;
-    background: $color-light-grey;
+    background: var(--color-decoration);
     border-radius: 10px;
     margin-top: 8px;
     margin-bottom: 16px;
@@ -294,7 +294,7 @@ nav {
     width: 2px;
     height: 30px;
     margin-left: 52px;
-    border-right: 4px dotted $color-dark-grey;
+    border-right: 4px dotted var(--color-text);
     z-index: -1;
 }
 
