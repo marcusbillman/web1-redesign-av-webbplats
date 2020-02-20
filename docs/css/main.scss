@@ -208,7 +208,8 @@ nav {
     margin-top: 0;
     display: flex;
     align-items: center;
-    background: url("../img/hero-bg.jpg");
+    background-color: $color-cyan;
+    background-image: url("../img/hero-bg.jpg");
     background-size: cover;
     background-attachment: fixed;
 }
@@ -255,14 +256,16 @@ nav {
 }
 
 .project-card-1 {
-    background: url(../img/project-1.png);
+    background: white;
+    background-image: url(../img/project-1.png);
     background-size: cover;
     background-position: bottom;
     color: #272729;
 }
 
 .project-card-2 {
-    background: url(../img/project-2.png);
+    background-color: black;
+    background-image: url(../img/project-2.png);
     background-size: cover;
     background-position: bottom;
     color: white;
