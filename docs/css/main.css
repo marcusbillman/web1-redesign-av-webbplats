@@ -127,7 +127,6 @@ a:not(.no-animation):hover::after {
 
 .button:hover {
   color: white;
-  font-size: 17px;
   letter-spacing: 1.2px;
   background: #08c2e3;
 }
