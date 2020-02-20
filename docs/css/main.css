@@ -462,15 +462,14 @@ footer {
   .flex-card-wrapper-1 {
     margin-bottom: 20px;
   }
+  .skill-card,
   .project-card {
-    margin-right: 20px;
     margin-bottom: 0;
     width: 500px;
   }
-  .skill-card {
+  .skill-card:not(:last-child),
+  .project-card:not(:last-child) {
     margin-right: 20px;
-    margin-bottom: 0;
-    width: 500px;
   }
   .progress-bar {
     width: 500px;

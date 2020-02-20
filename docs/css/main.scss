@@ -401,14 +401,11 @@ footer {
         margin-bottom: 20px;
     }
 
+    .skill-card,
     .project-card {
-        margin-right: 20px;
-        margin-bottom: 0;
-        width: 500px;
-    }
-
-    .skill-card {
-        margin-right: 20px;
+        &:not(:last-child) {
+            margin-right: 20px;
+        }
         margin-bottom: 0;
         width: 500px;
     }
