@@ -431,8 +431,10 @@ footer {
 
 [data-aos="crop-horizontal"] {
     clip-path: inset(0 50% 0 50%);
-    transition-property: clip-path;
+    opacity: 0;
+    transition-property: clip-path, opacity;
     &.aos-animate {
         clip-path: inset(0 0 0 0);
+        opacity: 1;
     }
 }
