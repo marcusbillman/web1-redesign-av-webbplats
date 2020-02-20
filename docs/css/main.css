@@ -495,4 +495,19 @@ footer {
     max-width: 1150px;
   }
 }
+
+/* === ANIMATIONS === */
+[data-aos="crop-horizontal"] {
+  -webkit-clip-path: inset(0 50% 0 50%);
+          clip-path: inset(0 50% 0 50%);
+  -webkit-transition-property: -webkit-clip-path;
+  transition-property: -webkit-clip-path;
+  transition-property: clip-path;
+  transition-property: clip-path, -webkit-clip-path;
+}
+
+[data-aos="crop-horizontal"].aos-animate {
+  -webkit-clip-path: inset(0 0 0 0);
+          clip-path: inset(0 0 0 0);
+}
 /*# sourceMappingURL=main.css.map */

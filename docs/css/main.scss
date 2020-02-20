@@ -433,3 +433,13 @@ footer {
         max-width: 1150px;
     }
 }
+
+/* === ANIMATIONS === */
+
+[data-aos="crop-horizontal"] {
+    clip-path: inset(0 50% 0 50%);
+    transition-property: clip-path;
+    &.aos-animate {
+        clip-path: inset(0 0 0 0);
+    }
+}
