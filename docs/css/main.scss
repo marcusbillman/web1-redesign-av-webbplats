@@ -162,6 +162,7 @@ nav {
 .social-links {
     display: none;
     a {
+        display: inline-block;
         margin-left: 20px;
         &::after {
             width: 0;

@@ -172,6 +172,7 @@ nav {
 }
 
 .social-links a {
+  display: inline-block;
   margin-left: 20px;
 }
 
