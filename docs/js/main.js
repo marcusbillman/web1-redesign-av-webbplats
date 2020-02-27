@@ -1,3 +1,5 @@
+// Dark Theme
+
 const darkThemeToggle = document.getElementById("darkThemeToggle");
 
 let darkThemeEnabled;
@@ -19,3 +21,13 @@ darkThemeToggle.addEventListener("click", () => {
 function setBodyTheme(value) {
     document.body.setAttribute("data-dark-theme", value);
 }
+
+// Progressive Web App
+
+window.onload = () => {
+    "use strict";
+
+    if ("serviceWorker" in navigator) {
+        navigator.serviceWorker.register("./sw.js");
+    }
+};
