@@ -28,6 +28,11 @@ html {
           filter: invert(1);
 }
 
+[data-dark-theme="true"] .dark-theme-toggle {
+  -webkit-transform: rotate(45deg) !important;
+          transform: rotate(45deg) !important;
+}
+
 * {
   margin: 0;
   padding: 0;

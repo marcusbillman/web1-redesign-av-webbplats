@@ -24,6 +24,9 @@ html {
     img:not(.profile-picture) {
         filter: invert(1);
     }
+    .dark-theme-toggle {
+        transform: rotate(45deg) !important;
+    }
 }
 
 * {
