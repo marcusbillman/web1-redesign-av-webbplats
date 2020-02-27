@@ -1,0 +1,9 @@
+{
+    "name": "Marcus Billman - UI/UX Designer",
+    "short_name": "Marcus Billman",
+    "lang": "en-US",
+    "start_url": "index.html",
+    "display": "standalone",
+    "background_color": "white",
+    "theme_color": "#08c2e3"
+}
