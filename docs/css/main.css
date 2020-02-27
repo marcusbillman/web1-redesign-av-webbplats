@@ -159,6 +159,16 @@ a:not(.no-animation):hover::after {
   transition: all 0.5s;
 }
 
+::-moz-selection {
+  background: #08c2e3;
+  color: white;
+}
+
+::selection {
+  background: #08c2e3;
+  color: white;
+}
+
 /* === NAVBAR === */
 nav {
   height: 60px;

@@ -151,6 +151,11 @@ a {
     transition: all 0.5s;
 }
 
+::selection {
+    background: $color-cyan;
+    color: white;
+}
+
 /* === NAVBAR === */
 
 nav {
