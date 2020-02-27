@@ -70,7 +70,8 @@ p {
 }
 
 h1 {
-  font-size: 48px;
+  font-size: 40px;
+  color: white;
 }
 
 h2 {
@@ -276,11 +277,6 @@ nav {
   margin-left: 0;
 }
 
-.profile-text h1 {
-  color: white;
-  font-size: 40px;
-}
-
 .profile-text .tagline {
   color: white;
   font-weight: 600;
@@ -453,6 +449,9 @@ footer {
   .container {
     max-width: 720px;
   }
+  h1 {
+    font-size: 48px;
+  }
   .profile-wrapper {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
@@ -463,9 +462,6 @@ footer {
   .profile-text {
     margin-top: 0;
     margin-left: 30px;
-  }
-  .profile-text h1 {
-    font-size: 48px;
   }
   .flex-card-wrapper {
     -webkit-box-orient: horizontal;
