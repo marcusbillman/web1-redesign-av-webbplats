@@ -480,7 +480,6 @@ footer {
   .skill-card,
   .project-card {
     margin-bottom: 0;
-    width: 500px;
   }
   .skill-card:not(:last-child),
   .project-card:not(:last-child) {
